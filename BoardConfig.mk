@@ -22,8 +22,8 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 5
 TARGET_HW_DISK_ENCRYPTION := true
 
 # FM
-BOARD_HAS_QCA_FM_SOC := "cherokee"
-BOARD_HAVE_QCOM_FM := true
+#BOARD_HAS_QCA_FM_SOC := "cherokee"
+#BOARD_HAVE_QCOM_FM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
