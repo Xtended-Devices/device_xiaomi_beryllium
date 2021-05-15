@@ -6,7 +6,7 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Xtended stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 #Bootanimation res
@@ -31,4 +31,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
 XTENDED_BUILD_TYPE := OFFICIAL
 
 # Maintainer
-XTENDED_MAINTAINER := Dev
+XTENDED_BUILD_MAINTAINER := Dev
+XTENDED_BUILD_DONATE_URL := https://paypal.me/devmashru
